@@ -1,0 +1,32 @@
+Page{
+    background: hotpink;
+}
+FlexboxLayout {
+  justify-content: center;
+  align-items: center;
+}
+StackLayout {
+  width: 300;
+  padding: 20 16;
+  font-family: consolas;
+}
+Button{
+    background: rgb(255, 0, 98);
+    color: white;
+}
+Image {
+  margin-bottom: 20;
+  height: 70;
+}
+Button, TextField {
+  margin-bottom: 10;
+}
+.btn-primary {
+  background-color: #CB1D00;
+  margin-left: 0;
+  margin-right: 0;
+}
+TextField {
+  color: white;
+  placeholder-color: white;
+}

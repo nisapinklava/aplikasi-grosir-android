@@ -1,0 +1,18 @@
+<Page loaded="loaded">
+    <ActionBar title="Groceries by nisapinklava"></ActionBar>
+    <FlexboxLayout>
+        <StackLayout class="form">
+            <Image src="~/images/logo.png" />
+
+            <TextField id="email" text="{{ email }}" hint="Email Address"
+                keyboardType="email" autocorrect="false"
+                autocapitalizationType="none" class="input input-border" />
+            <TextField secure="true" text="{{ password }}" hint="Password"
+                class="input input-border" />
+
+            <Button text="Sign in" class="btn btn-primary" tap="signIn" />
+            <Button text="Sign up for Groceries" class="link"
+                tap="register" />
+        </StackLayout>
+    </FlexboxLayout>
+</Page>
