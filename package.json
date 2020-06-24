@@ -1,5 +1,5 @@
 {
-    "description": "Template for starting the NativeScript getting started Groceries tutorial",
+    "description": "groceries by nisapinklava",
     "nativescript": {
         "id": "org.nativescript.groceriesjs",
         "tns-android": {
